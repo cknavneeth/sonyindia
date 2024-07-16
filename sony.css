@@ -1,0 +1,664 @@
+body{
+    margin: 0;
+    /* width: 100%; */
+    overflow-x: hidden;
+   
+
+}
+
+.first{
+   
+    height: 64px;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex: 1; */
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    /* align-items: center; */
+    gap: 45%;
+}
+
+.head{
+ /* background-color: rgb(0, 0, 0);  */
+    color: white;
+    font-weight: bold;   
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin-top: 23px;
+    margin-left: 178px;
+    font-family:  "SST W01 Roman", sans-serif, Helvetica Neue, Helvetica, Arial;
+    font-size: 16px;
+    font-weight: 700;
+  
+}
+.sonyimg{
+    height: 22px;
+    width: 85px;
+}
+
+.icon1{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 10px;
+    margin-right: 150px;
+    color: rgb(251, 252, 247);
+    margin-top: 10px;
+    margin-left: 58px;
+    
+}
+.person{
+    height: 25px;
+    /* fill:white; */
+    width: 20px;
+
+}
+.mysony{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.love1{
+    margin-left: 11px;
+}
+.love{
+    height: 28px;
+    width: 26px;
+    padding-left: 28px;
+    padding-top: 12px;
+}
+.search{
+    height: 27px;
+    width: 30px;
+    padding-top: 13px;
+    padding-left: 14px;
+}
+.menu{
+    height: 26px;
+    width: 20px;
+    padding-top: 12px;
+}
+.mainimage{
+    /* position: absolute;   */
+    
+    /* left: -129px; */
+    width: 124%;
+    z-index: -1;
+    margin-left: -128px;
+
+}
+.para1{
+    position: absolute;
+    top: 136px;
+    left: 278px;
+    font-size: 37px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    font-family: SST W01 Roman, sans-serif, Helvetica Neue, Helvetica, Arial;
+}
+.front{
+    display: flex;
+    width: 100%;
+   
+
+      position: relative;  
+     }
+
+.learnbutton{
+    position: absolute;
+    top: 232px;
+    left: 278px;
+    width: 113px;
+    height: 40px;
+    background-color:  #2d75c7;
+    color: white;
+    font-style: normal;
+}
+.para2{
+    position: absolute;
+    top: 512px;
+    left: 245px;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: SST W01 Bold, sans-serif, Helvetica Neue, Helvetica, Arial;
+    font-style: normal;
+}
+.subbravia{
+    /* display: flex;*/
+    
+    position: relative; 
+    margin-left: 240px;
+    margin-top: 50px;
+    display: block;
+   
+    
+}
+.bravia{
+    
+    height: 480px;
+    width: 379.987px;
+}
+.braviacap{
+    background-color:  rgba(243,244,246,.9);
+    position: absolute;
+    top: 79%;
+    width: 379.987px;
+    height: 130px;
+    margin-top: -35px;
+    /* padding: 20px 20px 20px 20px; */
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.imagecap{
+    font-family: "object-fit: cover";
+    font-size: 22px;
+    line-height: 25.6px;
+    cursor: pointer;
+    font-family: bold;
+}
+.ult{
+    position: absolute;
+    height: 468px;
+    width: 379.987px;
+    margin-left: 35px;
+    margin-top: 7px;
+}
+.ultcap{
+
+    background-color:  rgba(243,244,246,.9);
+    position: absolute;
+    top: 79%;
+    right: 37.8%;
+    width: 380.987px;
+    height: 131px;
+    margin-top: -35px;
+    /* padding: 20px 20px 20px 20px; */
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.ult-subcap{
+    font-family: "object-fit: cover";
+    font-size: 22px;
+    line-height: 25.6px;
+    cursor: pointer;
+    font-family: bold;
+}
+.theatre{
+    position: absolute;
+    height: 482px;
+    width: 379.987px;
+    margin-left: 448px;
+    margin-top: 0px;
+
+}
+.theatrecap{
+    background-color:  rgba(243,244,246,.9);
+    position: absolute;
+    top: 79.1%;
+    right: 5.5%;
+    width: 380.987px;
+    height: 131px;
+    margin-top: -35px;
+    /* padding: 20px 20px 20px 20px; */
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.theatre-subcap{
+    font-family: "object-fit: cover";
+    font-size: 22px;
+    line-height: 25.6px;
+    cursor: pointer;
+    font-family: bold;
+}
+.circles{
+    display: flex;
+    gap: 7px;
+    padding-left: 700px;
+    padding-top: 31px;
+}
+.circle{
+   width: 5px;
+   height: 5px;
+   border-radius: 50%;
+   background-color: gray;
+   border: none;
+   
+}
+.hot{
+   font-family: "SST W01 Bold", sans-serif, "Helvetica Neue", Helvetica, Arial;
+   font-size: 22px;
+   font-weight: 700;
+    
+   line-height: 30.0001px;
+   height: 30px;
+   width: 1200px;
+   margin: 25px 0px 30px 241px;
+   display: block;
+}
+.main-buttons{
+    display: flex;
+    margin-left: 244px;
+    gap: 20px;
+}
+.buttons{
+    width: 181px;
+    height: 50px;
+    border-radius: 15px;
+    font-family: "SST W01 Roman", sans-serif, "Helvetica Neue", Helvetica, Arial;
+    font-size: 16px;
+    line-height: 25.6px;
+    text-decoration: none solid rgb(47, 53, 61);
+    background-color:  #FFFFFF;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+
+}
+.main-buttons :first-child{
+    background-color:   #2F353D;
+    color: #fff;
+}
+.buttons:hover{
+    background-color: gray;
+}
+.best-of-sony{
+    width: 489px;
+    height: 168px;
+    /* margin-left: 284px; */
+    margin-top: 25px;
+    background-color: #a46900;
+    font-family: "SST W01 Medium", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-decoration: none solid rgb(255, 255, 255);
+     
+    color: white;  
+    padding-left: 25px;
+    padding-top: 17px;
+}
+.bestsony{
+    display: flex;
+    padding-left: 287px;
+    /* background-color: yellow; */
+    /* width: 600px; */
+    /* height: 500px; */
+    
+   
+}
+.sonyheadset{
+    height: 163.337px;
+    width: 100%;
+    background-color: #f2f5f9;
+    
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    
+    
+    /* height: 346.737px;
+width: 127px; */
+height: 241.575px;
+width: 163.337px;
+color: #2F353D;
+    /* margin-left: 287px; */
+    /* padding-top: 21px; */
+    
+}
+.star{
+    display: flex;
+    gap: 2px;
+    margin-top: -7px;
+    
+}
+.star img{
+    width: 15px;
+    height: 15px;
+}
+.lovelike{
+    width: 15px;
+    height: 15px;
+     margin-top: 20px; 
+    
+}
+.xm5{
+    margin-top:-10px;
+    font-family: "SST W01 Bold", sans-serif;
+font-size: 15px;
+line-height: 21px;
+color: #2F353D;
+cursor: pointer;
+font-weight: 600;
+   
+}
+.mrp1{
+    margin-top: -1px;
+    font-family: "SST W01 Roman", sans-serif, "Helvetica Neue", Helvetica, Arial;
+ font-size: 12px; 
+line-height: 25.6px;
+cursor: pointer;
+ color:   #6B6B7B;
+}
+.whxm5{
+    font-size: 12px;
+    line-height: 18px;
+}
+.mrp1 span{
+    font-size: 15px;
+}
+.products{
+    display: flex;
+    gap: 12px;
+}
+.tvsony{
+    /* background-color: #2d75c7; */
+    /* height: 374px; */
+    width: 545.5px;
+    margin-top: 25px;
+    margin-left: 31px;
+    
+}
+.tv{
+   
+    width: 400px;
+    height: 372px;
+    
+    margin-left: 70px;
+}
+.tvdiv{
+    background-color: #f2f5f9;;
+}
+.startingat{
+    margin-block: 1px;
+}
+.promo{
+    padding-left: 235px;
+    margin-top: 66px;
+    font-family: "SST W01 Bold", sans-serif, "Helvetica Neue", Helvetica, Arial;
+    font-size: 22px;
+    font-weight: 700;
+}
+.promo1{
+    height: 363.5px;
+width: 585px;
+}
+.firstimage{
+    position: relative;
+    display: flex;
+    width: 1150px;
+    margin-left: 235px;
+    margin-right: 15px;
+    background-color: #E8EDF3 ;
+}
+.headofimage1{
+    font-family: "SST W01 Roman", sans-serif, "Helvetica Neue", Helvetica, Arial;
+    font-size: 30px;
+    letter-spacing: -0.64px;
+    margin-left: 33px;
+    margin-top: 121px;
+    
+}
+.firstimage span{
+    /* padding-left: 100px; */
+    position: absolute;
+    top: 45%;
+    left: 98%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.subheadofimage1{
+    font-family: "SST W01 Roman", sans-serif, "Helvetica Neue", Helvetica, Arial;
+    font-size: 15px;
+    line-height: 22px;
+    margin-left: 35px;
+    margin-top: -26px;
+    
+  /* height: 44px; */
+/* width: 530px; */
+}
+.allpromotions{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.viewedproducts{
+    font-family: "SST W01 Bold", sans-serif, "Helvetica Neue", Helvetica, Arial;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.16px;
+    line-height: 26px;
+    padding-left: 235px;
+    margin-top: 10px;
+}
+.recentlyviewedproducts{
+    display: flex;
+    gap: 20px;
+    margin-left: 235px;
+}
+.footnotes{
+    background-color: #6B6B7B;
+    padding-left: 212px;
+    padding-top: 100px;
+    font-family: "SST W01 Roman", sans-serif, "Helvetica Neue", Helvetica, Arial;
+    font-size: 13px;
+    line-height: 20px;
+    padding-right: 212px;
+    
+    
+    background-color: #E8EDF3 ;
+    width: 1100px;
+    padding-bottom: 20px;
+}
+.firstnote{
+    margin-bottom: 40px;
+    margin-top: -42px;
+}
+.footer{
+    position: relative;
+   color: #FFFFFF;
+   font-family: "SST W01 Roman", sans-serif, "Helvetica Neue", Helvetica, Arial;
+    background-color:  #000000;
+    height: 484.737px;
+    width: 1100px;
+    /* width: 1513.2px; */
+    /* margin-top: -13px; */
+    padding-left: 212px;
+    padding-right: 212px;
+    font-size: 13px;
+    
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+
+}
+.firstgrid{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.earth{
+    position: absolute;
+    top: 90px;
+    width: 20px;
+    height: 20px;
+}
+.locationsearch{
+    margin-top:10px ;
+    height: 40;
+    width: 260px;
+    padding: 3px 3px 3px 20px;
+    color:    #878792;;
+    background-color: #000000;
+    border: 1px solid white;
+    border-color: 878792;
+}
+.loc-img-button{
+    display: flex;
+    flex-direction: column;
+
+}
+#search-button{
+    position: absolute;
+    top: 18%;
+    left: 26%;
+    height: 27px;
+    width: 88px;
+    background-color: #2d75c7;
+}
+.seelocation{
+    margin-top: 5px;
+}
+.india{
+    width:50px;
+    height: 35px;
+   color: white;
+    background-color: gray;
+}
+.supportsection{
+    
+   margin-left: 25px;
+   padding-top: 20px;
+}
+.c1{
+    margin-bottom: 23px;
+    color:  #878792;
+    font-family: "SST W01 Roman", sans-serif, "Helvetica Neue", Helvetica, Arial;
+    font-size: 15px;
+}
+.c3{
+  margin-top: -6px;
+}
+.c4{
+    margin-top: -6px;
+}
+.newssection{
+    padding-top: 20px;
+}
+.contactsection{
+    padding-top: 20px;
+}
+.lastcommands{
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    margin-top: 80px ;
+    margin-left: 430px;
+
+}
+.lastcommands a:link,
+.lastcommands a:visited{
+    font-family: "SST W01 Roman", sans-serif, "Helvetica Neue", Helvetica, Arial;
+font-size: 13px;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+.footer-btns{
+    margin-top: 15px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #6b6b71;
+    
+    width: 1190px;
+    display: flex;
+    /* gap: 500px; */
+    justify-content: space-between;
+}
+.social-media{
+    display: flex;
+    gap: 5px;
+}
+.icons{
+/* display: inline; */
+/* width: 25px; */
+/* height: 10px; */
+padding: 12px;
+
+font-size: 20px;
+}
+.facebook:hover{
+background-color: rgb(24, 119, 242);;
+}
+.x:hover{
+    background-color: rgb(24, 119, 242);;
+
+}
+.youtube:hover{
+    background-color: rgb(255, 0, 0);
+
+}
+.insta:hover{
+    background-color: rgb(80, 125, 162);
+
+}
+ .findstore{
+    color:   #878792;
+    font-family: "SST W01 Roman", sans-serif, "Helvetica Neue", Helvetica, Arial;
+    font-size: 15px;
+}
+.news{
+    color:   #878792;
+    font-family: "SST W01 Roman", sans-serif, "Helvetica Neue", Helvetica, Arial;
+    font-size: 15px;
+}
+.contact{
+    color:   #878792;
+    font-family: "SST W01 Roman", sans-serif, "Helvetica Neue", Helvetica, Arial;
+    font-size: 15px;
+}
+.terms{
+    font-family: "SST W01 Bold", sans-serif, "Helvetica Neue", Helvetica, Arial;
+    font-size: 11px;
+    letter-spacing: 0.16px;
+    line-height: 18px;
+    padding-top: 19px;
+}
+.termsconditions{
+    display: flex;
+    gap: 20px;
+}
+.copyrightsection{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sonygroupbutton{
+    font-family: "SST W01 Roman", sans-serif, "Helvetica Neue", Helvetica, Arial;
+    font-size: 10px;
+    line-height: 25.6px;
+    width: 150px;
+    height: 25.6px;
+    padding-top: -10px;
+    
+}
+.ult1{
+    position: absolute;
+    height: 468px;
+    width: 379.987px;
+    margin-left: 859px;
+    margin-top: 7px;
+}
+.ultcap1{
+
+    background-color:  rgba(243,244,246,.9);
+    position: absolute;
+    top: 79%;
+    right: -26.6%;
+    width: 380.987px;
+    height: 131px;
+    margin-top: -35px;
+    /* padding: 20px 20px 20px 20px; */
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.ult-subcap1{
+    font-family: "object-fit: cover";
+    font-size: 22px;
+    line-height: 25.6px;
+    cursor: pointer;
+    font-family: bold;
+}
